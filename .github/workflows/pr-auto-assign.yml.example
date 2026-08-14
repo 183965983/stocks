@@ -53,7 +53,7 @@ jobs:
             }
 
             // 默认审核人（当前为单人维护）
-            const reviewers = ['183965983'];
+            const reviewers = ['ji-tz'];
 
             // 提交审核人指派
             const result = await github.rest.pulls.requestReviewers({

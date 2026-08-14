@@ -15,7 +15,7 @@ def get_token():
 
 def api(method, path, data=None):
     token = get_token()
-    url = f"https://api.github.com/repos/183965983/stocks{path}"
+    url = f"https://api.github.com/repos/ji-tz/stocks{path}"
     headers = {
         "Authorization": f"token {token}",
         "Accept": "application/vnd.github.v3+json",

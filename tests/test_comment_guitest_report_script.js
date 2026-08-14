@@ -11,11 +11,11 @@ function testRewriteRelativeImageLinks() {
     '![步骤2](images/02_select_strategy.png)',
     '![外链](https://example.com/a.png)',
   ].join('\n');
-  const baseUrl = 'https://raw.githubusercontent.com/183965983/stocks/guitest-assets/runs/123';
+  const baseUrl = 'https://raw.githubusercontent.com/ji-tz/stocks/guitest-assets/runs/123';
 
   const output = rewriteImageLinks(input, baseUrl);
-  assert.ok(output.includes('![步骤1](https://raw.githubusercontent.com/183965983/stocks/guitest-assets/runs/123/01_open_home.png)'));
-  assert.ok(output.includes('![步骤2](https://raw.githubusercontent.com/183965983/stocks/guitest-assets/runs/123/02_select_strategy.png)'));
+  assert.ok(output.includes('![步骤1](https://raw.githubusercontent.com/ji-tz/stocks/guitest-assets/runs/123/01_open_home.png)'));
+  assert.ok(output.includes('![步骤2](https://raw.githubusercontent.com/ji-tz/stocks/guitest-assets/runs/123/02_select_strategy.png)'));
   assert.ok(output.includes('![外链](https://example.com/a.png)'));
 }
 
