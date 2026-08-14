@@ -157,7 +157,7 @@ stocks/
 
 1. **克隆仓库**
    ```bash
-   git clone https://github.com/183965983/stocks.git
+   git clone https://github.com/ji-tz/stocks.git
    cd stocks
    ```
 
@@ -569,8 +569,8 @@ result = sim.simulate(df=data, strategy=strategy, verbose=True)
 
 - 📖 [Simulator 架构文档](docs/SIMULATOR_ARCHITECTURE.md)
 - 🔄 [工作流详细说明](docs/WORKFLOW.md)
-- 🐛 [提交 Issue](https://github.com/183965983/stocks/issues)
-- 🔀 [提交 Pull Request](https://github.com/183965983/stocks/pulls)
+- 🐛 [提交 Issue](https://github.com/ji-tz/stocks/issues)
+- 🔀 [提交 Pull Request](https://github.com/ji-tz/stocks/pulls)
 
 ## 致谢
 
